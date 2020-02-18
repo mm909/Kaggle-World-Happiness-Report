@@ -22,7 +22,7 @@ def evaluate(model, test_features, test_labels):
     return accuracy
 
 # # Read In Values from CSV
-happy = pd.read_csv("totals.csv")
+happy = pd.read_csv("data/totals.csv")
 # print(glass.head())
 # print(happy.info())
 
